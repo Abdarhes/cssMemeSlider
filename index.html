@@ -1,1 +1,56 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeSlider</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="title">MemeSlider</h1>
+    </header>
+    <main class="wrapper__memes wrapper">
+      <input class="input__memes" type="radio" name="but" id="mem1" checked>
+      <input class="input__memes" type="radio" name="but" id="mem2">
+      <input class="input__memes" type="radio" name="but" id="mem3">
+      <input class="input__memes" type="radio" name="but" id="mem4">
+      <div class="slider__memes slider">
+        <img class="memes__image" src="img/mem1.jpg" alt="memes">
+        <img class="memes__image" src="img/mem2.jpg" alt="memes">
+        <img class="memes__image" src="img/mem3.jpg" alt="memes">
+        <img class="memes__image" src="img/mem4.jpg" alt="memes">
+      </div>
+      <div class="memes__phrase">
+        <ul class="phrase__list phrase">
+          <li class="phrase__item">
+            <p>Не прокатило...</p>
+          </li>
+          <li class="phrase__item">
+            <p>Все или ничего...</p>
+          </li>
+          <li class="phrase__item">
+            <p>Странный арест...</p>
+          </li>
+          <li class="phrase__item">
+            <p>Нестандартный подход...</p>
+          </li>
+        </ul>
+        <div class="navigation">
+          <label class="navigation__item" for="mem1">
+            <span class="navigation__button"></span>
+          </label>
+          <label class="navigation__item" for="mem2">
+            <span class="navigation__button"></span>
+          </label>
+          <label class="navigation__item" for="mem3">
+            <span class="navigation__button"></span>
+          </label>
+          <label class="navigation__item" for="mem4">
+            <span class="navigation__button"></span>
+          </label>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
