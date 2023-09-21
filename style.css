@@ -67,6 +67,7 @@ body {
   
 .slider__memes {
     display: grid;
+    overflow: hidden;
   }
   
 .memes__image {
@@ -184,7 +185,7 @@ p {
   #mem3:checked ~ .slider__memes .memes__image:nth-child(3),
   #mem4:checked ~ .slider__memes .memes__image:nth-child(4) {
     opacity: 1;
-    animation: deployment 2s ease;
+    animation: on-right 1s ease;
   }
   
 .input__memes#mem1:checked ~ .memes__phrase .phrase__item:nth-child(1),
@@ -193,7 +194,7 @@ p {
 .input__memes#mem4:checked ~ .memes__phrase .phrase__item:nth-child(4) {
       z-index: 1;
       opacity: 1;
-      animation: on-right 2s ease;
+      animation: on-right 1s ease;
     }
  
 @keyframes on-right {
